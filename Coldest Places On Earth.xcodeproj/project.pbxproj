@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4EEF86C1C0FA4C400381F1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEF86B1C0FA4C400381F1B /* AppDelegate.swift */; };
+		C4EEF86E1C0FA4C400381F1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEF86D1C0FA4C400381F1B /* ViewController.swift */; };
+		C4EEF8711C0FA4C400381F1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EEF86F1C0FA4C400381F1B /* Main.storyboard */; };
+		C4EEF8731C0FA4C400381F1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4EEF8721C0FA4C400381F1B /* Assets.xcassets */; };
+		C4EEF8761C0FA4C400381F1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4EEF8741C0FA4C400381F1B /* LaunchScreen.storyboard */; };
+		C4EEF8811C0FA4C400381F1B /* Coldest_Places_On_EarthTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEF8801C0FA4C400381F1B /* Coldest_Places_On_EarthTests.swift */; };
+		C4EEF88C1C0FA4C400381F1B /* Coldest_Places_On_EarthUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EEF88B1C0FA4C400381F1B /* Coldest_Places_On_EarthUITests.swift */; };
+		C4EEF89A1C0FA5B400381F1B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4EEF8991C0FA5B400381F1B /* MapKit.framework */; };
+		C4F87E0B1C11FD94002D99DA /* RegionsListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F87E0A1C11FD94002D99DA /* RegionsListController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4EEF87D1C0FA4C400381F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EEF8601C0FA4C300381F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EEF8671C0FA4C400381F1B;
+			remoteInfo = "Coldest Places On Earth";
+		};
+		C4EEF8881C0FA4C400381F1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4EEF8601C0FA4C300381F1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4EEF8671C0FA4C400381F1B;
+			remoteInfo = "Coldest Places On Earth";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4EEF8681C0FA4C400381F1B /* Coldest Places On Earth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coldest Places On Earth.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EEF86B1C0FA4C400381F1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4EEF86D1C0FA4C400381F1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C4EEF8701C0FA4C400381F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4EEF8721C0FA4C400381F1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4EEF8751C0FA4C400381F1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4EEF8771C0FA4C400381F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EEF87C1C0FA4C400381F1B /* Coldest Places On EarthTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coldest Places On EarthTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EEF8801C0FA4C400381F1B /* Coldest_Places_On_EarthTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coldest_Places_On_EarthTests.swift; sourceTree = "<group>"; };
+		C4EEF8821C0FA4C400381F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EEF8871C0FA4C400381F1B /* Coldest Places On EarthUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coldest Places On EarthUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EEF88B1C0FA4C400381F1B /* Coldest_Places_On_EarthUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coldest_Places_On_EarthUITests.swift; sourceTree = "<group>"; };
+		C4EEF88D1C0FA4C400381F1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4EEF8991C0FA5B400381F1B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4F87E0A1C11FD94002D99DA /* RegionsListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegionsListController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4EEF8651C0FA4C400381F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EEF89A1C0FA5B400381F1B /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEF8791C0FA4C400381F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEF8841C0FA4C400381F1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4EEF85F1C0FA4C300381F1B = {
+			isa = PBXGroup;
+			children = (
+				C4EEF8991C0FA5B400381F1B /* MapKit.framework */,
+				C4EEF86A1C0FA4C400381F1B /* Coldest Places On Earth */,
+				C4EEF87F1C0FA4C400381F1B /* Coldest Places On EarthTests */,
+				C4EEF88A1C0FA4C400381F1B /* Coldest Places On EarthUITests */,
+				C4EEF8691C0FA4C400381F1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4EEF8691C0FA4C400381F1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEF8681C0FA4C400381F1B /* Coldest Places On Earth.app */,
+				C4EEF87C1C0FA4C400381F1B /* Coldest Places On EarthTests.xctest */,
+				C4EEF8871C0FA4C400381F1B /* Coldest Places On EarthUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4EEF86A1C0FA4C400381F1B /* Coldest Places On Earth */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEF86B1C0FA4C400381F1B /* AppDelegate.swift */,
+				C4EEF86D1C0FA4C400381F1B /* ViewController.swift */,
+				C4F87E0A1C11FD94002D99DA /* RegionsListController.swift */,
+				C4EEF86F1C0FA4C400381F1B /* Main.storyboard */,
+				C4EEF8721C0FA4C400381F1B /* Assets.xcassets */,
+				C4EEF8741C0FA4C400381F1B /* LaunchScreen.storyboard */,
+				C4EEF8771C0FA4C400381F1B /* Info.plist */,
+			);
+			path = "Coldest Places On Earth";
+			sourceTree = "<group>";
+		};
+		C4EEF87F1C0FA4C400381F1B /* Coldest Places On EarthTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEF8801C0FA4C400381F1B /* Coldest_Places_On_EarthTests.swift */,
+				C4EEF8821C0FA4C400381F1B /* Info.plist */,
+			);
+			path = "Coldest Places On EarthTests";
+			sourceTree = "<group>";
+		};
+		C4EEF88A1C0FA4C400381F1B /* Coldest Places On EarthUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C4EEF88B1C0FA4C400381F1B /* Coldest_Places_On_EarthUITests.swift */,
+				C4EEF88D1C0FA4C400381F1B /* Info.plist */,
+			);
+			path = "Coldest Places On EarthUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4EEF8671C0FA4C400381F1B /* Coldest Places On Earth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EEF8901C0FA4C400381F1B /* Build configuration list for PBXNativeTarget "Coldest Places On Earth" */;
+			buildPhases = (
+				C4EEF8641C0FA4C400381F1B /* Sources */,
+				C4EEF8651C0FA4C400381F1B /* Frameworks */,
+				C4EEF8661C0FA4C400381F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coldest Places On Earth";
+			productName = "Coldest Places On Earth";
+			productReference = C4EEF8681C0FA4C400381F1B /* Coldest Places On Earth.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4EEF87B1C0FA4C400381F1B /* Coldest Places On EarthTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EEF8931C0FA4C400381F1B /* Build configuration list for PBXNativeTarget "Coldest Places On EarthTests" */;
+			buildPhases = (
+				C4EEF8781C0FA4C400381F1B /* Sources */,
+				C4EEF8791C0FA4C400381F1B /* Frameworks */,
+				C4EEF87A1C0FA4C400381F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EEF87E1C0FA4C400381F1B /* PBXTargetDependency */,
+			);
+			name = "Coldest Places On EarthTests";
+			productName = "Coldest Places On EarthTests";
+			productReference = C4EEF87C1C0FA4C400381F1B /* Coldest Places On EarthTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C4EEF8861C0FA4C400381F1B /* Coldest Places On EarthUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4EEF8961C0FA4C400381F1B /* Build configuration list for PBXNativeTarget "Coldest Places On EarthUITests" */;
+			buildPhases = (
+				C4EEF8831C0FA4C400381F1B /* Sources */,
+				C4EEF8841C0FA4C400381F1B /* Frameworks */,
+				C4EEF8851C0FA4C400381F1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4EEF8891C0FA4C400381F1B /* PBXTargetDependency */,
+			);
+			name = "Coldest Places On EarthUITests";
+			productName = "Coldest Places On EarthUITests";
+			productReference = C4EEF8871C0FA4C400381F1B /* Coldest Places On EarthUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4EEF8601C0FA4C300381F1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Medigarage Studios LTD";
+				TargetAttributes = {
+					C4EEF8671C0FA4C400381F1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UW9MD7S532;
+						LastSwiftMigration = 0820;
+					};
+					C4EEF87B1C0FA4C400381F1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UW9MD7S532;
+						LastSwiftMigration = 0820;
+						TestTargetID = C4EEF8671C0FA4C400381F1B;
+					};
+					C4EEF8861C0FA4C400381F1B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = UW9MD7S532;
+						LastSwiftMigration = 0820;
+						TestTargetID = C4EEF8671C0FA4C400381F1B;
+					};
+				};
+			};
+			buildConfigurationList = C4EEF8631C0FA4C300381F1B /* Build configuration list for PBXProject "Coldest Places On Earth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4EEF85F1C0FA4C300381F1B;
+			productRefGroup = C4EEF8691C0FA4C400381F1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4EEF8671C0FA4C400381F1B /* Coldest Places On Earth */,
+				C4EEF87B1C0FA4C400381F1B /* Coldest Places On EarthTests */,
+				C4EEF8861C0FA4C400381F1B /* Coldest Places On EarthUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4EEF8661C0FA4C400381F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EEF8761C0FA4C400381F1B /* LaunchScreen.storyboard in Resources */,
+				C4EEF8731C0FA4C400381F1B /* Assets.xcassets in Resources */,
+				C4EEF8711C0FA4C400381F1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEF87A1C0FA4C400381F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEF8851C0FA4C400381F1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4EEF8641C0FA4C400381F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4F87E0B1C11FD94002D99DA /* RegionsListController.swift in Sources */,
+				C4EEF86E1C0FA4C400381F1B /* ViewController.swift in Sources */,
+				C4EEF86C1C0FA4C400381F1B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEF8781C0FA4C400381F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EEF8811C0FA4C400381F1B /* Coldest_Places_On_EarthTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4EEF8831C0FA4C400381F1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4EEF88C1C0FA4C400381F1B /* Coldest_Places_On_EarthUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4EEF87E1C0FA4C400381F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EEF8671C0FA4C400381F1B /* Coldest Places On Earth */;
+			targetProxy = C4EEF87D1C0FA4C400381F1B /* PBXContainerItemProxy */;
+		};
+		C4EEF8891C0FA4C400381F1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4EEF8671C0FA4C400381F1B /* Coldest Places On Earth */;
+			targetProxy = C4EEF8881C0FA4C400381F1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4EEF86F1C0FA4C400381F1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EEF8701C0FA4C400381F1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4EEF8741C0FA4C400381F1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4EEF8751C0FA4C400381F1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4EEF88E1C0FA4C400381F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4EEF88F1C0FA4C400381F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4EEF8911C0FA4C400381F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coldest Places On Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.Coldest-Places-On-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4EEF8921C0FA4C400381F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Coldest Places On Earth/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.Coldest-Places-On-Earth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		C4EEF8941C0FA4C400381F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coldest Places On EarthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.Coldest-Places-On-EarthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coldest Places On Earth.app/Coldest Places On Earth";
+			};
+			name = Debug;
+		};
+		C4EEF8951C0FA4C400381F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Coldest Places On EarthTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.Coldest-Places-On-EarthTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coldest Places On Earth.app/Coldest Places On Earth";
+			};
+			name = Release;
+		};
+		C4EEF8971C0FA4C400381F1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coldest Places On EarthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.Coldest-Places-On-EarthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coldest Places On Earth";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C4EEF8981C0FA4C400381F1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Coldest Places On EarthUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.medigarage.Coldest-Places-On-EarthUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Coldest Places On Earth";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4EEF8631C0FA4C300381F1B /* Build configuration list for PBXProject "Coldest Places On Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EEF88E1C0FA4C400381F1B /* Debug */,
+				C4EEF88F1C0FA4C400381F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EEF8901C0FA4C400381F1B /* Build configuration list for PBXNativeTarget "Coldest Places On Earth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EEF8911C0FA4C400381F1B /* Debug */,
+				C4EEF8921C0FA4C400381F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EEF8931C0FA4C400381F1B /* Build configuration list for PBXNativeTarget "Coldest Places On EarthTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EEF8941C0FA4C400381F1B /* Debug */,
+				C4EEF8951C0FA4C400381F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4EEF8961C0FA4C400381F1B /* Build configuration list for PBXNativeTarget "Coldest Places On EarthUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4EEF8971C0FA4C400381F1B /* Debug */,
+				C4EEF8981C0FA4C400381F1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4EEF8601C0FA4C300381F1B /* Project object */;
+}
