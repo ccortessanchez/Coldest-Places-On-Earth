@@ -8,6 +8,11 @@
 
 import UIKit
 
+
+protocol RegionsProtocol {
+    func loadOverlayForRegionWithLatitude(latitude: Double, andLongitude: Double)
+}
+
 class RegionsListController: UIViewController, UITableViewDataSource, UITableViewDelegate {
 
 
@@ -16,6 +21,8 @@ class RegionsListController: UIViewController, UITableViewDataSource, UITableVie
     var regions:[String]!
     var latitudes:[Double]!
     var longitudes:[Double]!
+    
+    var delegate:RegionsProtocol!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,4 +51,18 @@ class RegionsListController: UIViewController, UITableViewDataSource, UITableVie
     */
     
     // MARK: UITableViewDelegate
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell:UITableViewCell! = tableView.dequeueReusableCell(withIdentifier: "regionCell")
+        cell?.textLabel!.text = regions[indexPath.row]
+        return cell
+    }
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return regions.count
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.dismiss(animated: true, completion: nil)
+        delegate.loadOverlayForRegionWithLatitude(latitude: latitudes[indexPath.row], andLongitude: longitudes[indexPath.row])
+    }
 }
